@@ -1,0 +1,61 @@
+.about-container {
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+  }
+  
+  .about-card {
+    display: flex;
+    background: #a6b0cd;
+    color: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+    max-width: 800px;
+  }
+  
+  .about-img {
+    width: 250px;
+    height: auto;
+    border-radius: 12px;
+    margin-right: 2rem;
+  }
+  
+  .about-info {
+    flex: 1;
+  }
+  
+  .about-info h2 {
+    color: #4f8cc9;
+    margin-bottom: 1rem;
+  }
+  
+  .about-info a {
+    color: #fff;
+    text-decoration: underline;
+  }
+  
+  .about-buttons {
+    margin-top: 2rem;
+  }
+  
+  .edit-btn,
+  .delete-btn {
+    padding: 0.5rem 1.2rem;
+    margin-right: 1rem;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .edit-btn {
+    background-color: #3b82f6;
+    color: white;
+  }
+  
+  .delete-btn {
+    background-color: #ef4444;
+    color: white;
+  }
+  
